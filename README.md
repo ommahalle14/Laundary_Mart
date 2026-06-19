@@ -1,106 +1,81 @@
 # Laundry Mart
 
-Laundry Mart is a front-end web development project designed to provide a clean, professional, and user-friendly interface for a modern laundry service business. The website highlights key services, promotes customer engagement through a clear call-to-action, and demonstrates the implementation of responsive and structured web design using HTML and CSS.
+Laundry Mart is a front-end web project built using HTML and CSS. The idea behind this project was to design a clean and modern website for a laundry service business while improving my skills in layout design, styling, and responsive user interfaces.
 
-## Overview
-
-The primary objective of this project is to create an attractive landing page for a laundry service company. The website presents essential business information in a simple and organized manner while maintaining a professional visual appearance.
-
-The project focuses on front-end development concepts such as layout design, navigation structure, styling, positioning, and user interface development.
+The project currently includes a landing page and a login page designed with a focus on simplicity, usability, and professional appearance.
 
 ## Features
 
-- Clean and professional landing page design
-- Navigation bar with links to key sections
-- Brand logo and user profile section
-- Service-oriented hero section
-- Call-to-action button for service booking
-- Modern typography and color scheme
-- Interactive hover effects
-- Structured and maintainable codebase
+- Modern landing page design
+- Dedicated login page
+- Clean and user-friendly interface
+- Service-focused hero section
+- Responsive layout using Flexbox
+- Custom styling with CSS
+- Google Fonts integration (Inter & Poppins)
+- Login form with email and password fields
+- Forgot Password and Sign Up sections
 
-## Technologies Used
+## Built With
 
 - HTML5
 - CSS3
+- Flexbox
+- Google Fonts
 
-## Website Sections
+## What I Learned
 
-### Header
+While building this project, I practiced:
 
-The header section contains:
+- Creating responsive layouts using Flexbox
+- Working with forms and input elements
+- Managing spacing using margin and padding
+- Improving UI design and visual hierarchy
+- Using custom fonts and styling techniques
+- Structuring a front-end project properly
 
-- Company logo
-- Username display section
-- Navigation menu
-  - Home
-  - Services
-  - About Us
-  - Contact Us
+## Pages
 
-### Hero Section
+### Landing Page
 
-The hero section serves as the main promotional area of the website and includes:
+The landing page introduces the laundry service and provides users with a clear overview of the business through a clean and simple design.
 
-- Service headline
-- Business description
-- Laundry service image
-- Service booking button
+### Login Page
 
-## Design Approach
+The login page allows users to enter their email and password through a professionally designed authentication interface. It includes:
 
-The website follows a minimal and professional design approach with a focus on readability and usability. A blue color palette has been used to reflect cleanliness, reliability, and trust, which are important qualities for a laundry service business.
+- Email field
+- Password field
+- Forgot Password link
+- Login button
+- Sign Up option for new users
 
-The layout is organized to provide a clear visual hierarchy and an intuitive browsing experience for users.
+## Future Improvements
 
-## Learning Outcomes
+Some features I plan to add in the future:
 
-Through the development of this project, the following concepts were practiced:
-
-- Semantic HTML structure
-- CSS styling and positioning
-- Navigation design
-- User interface development
-- Layout management
-- Front-end project organization
-- Basic responsive design principles
-
-## Future Enhancements
-
-The current version is a static landing page. Future improvements may include:
-
-- Fully responsive design for all screen sizes
-- Online service booking system
-- User authentication and account management
-- Order tracking functionality
-- Pricing and service management pages
-- Customer reviews and testimonials
+- Fully responsive design for all devices
+- User registration page
 - Backend integration
-- Database connectivity
-- Payment gateway integration
+- Authentication system
+- Order tracking
+- Pricing section
+- Customer reviews
+- Online booking functionality
 
-## Installation and Usage
+## Getting Started
 
-1. Clone the repository:
+Clone the repository:
 
-```bash
-git clone https://github.com/your-username/Laundry_Mart.git
-```
+bash git clone https://github.com/ommahalle14/Laundry_Mart.git 
 
-2. Navigate to the project directory:
-
-```bash
-cd Laundry_Mart
-```
-
-3. Open the `index.html` file in your preferred web browser.
+Open the project folder and run the index.html file in your browser.
 
 ## Author
 
-**Om Mahalle**  
+Om Mahalle
+
 Computer Science and Engineering  
 COEP Technological University
 
-## License
-
-This project is intended for educational and portfolio purposes.
+GitHub: https://github.com/ommahalle14
