@@ -1,0 +1,25 @@
+.container{
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    border: solid;
+    align-items: center;
+}
+#Left{
+    border: solid;
+    
+}
+
+#Right{
+    border: solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+#logintitle{
+    align-self: flex-start;
+}

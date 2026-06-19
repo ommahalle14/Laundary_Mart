@@ -3,45 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundary Mart</title>
-    <link rel="stylesheet" href="Herosection.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Loginpage.css">
 </head>
 <body>
-    <header>
-        <section id="leftright">
-            <img id="left" src="images/1logo_Image_Photoroom_.png" alt="">
-            <h3 id="right">Username</h3>
-        </section>
-        <nav>
-        <ul>
-            <li><a class="info" href="#">Home</a></li>
-            <li><a class="info" href="#">Services</a></li>
-            <li><a class="info" href="#">AboutUs</a></li>
-            <li><a class="info" href="#">ContactUs</a></li>
-        </ul>
-    </nav>
-    </header>
-    <section id="Hero">
-        <div id="heroleft">
-            <h1>🌿 <span style="color: #0077b6;font-size: 37px;">Fresh, Clean, and Revitalized</span><br>⭐
-                <span style="color: #044cab ;font-size: 37px;">with Expert</span> </h1>
-            <h2>
-                <span style="color: #00b4d8; font-size: 40px;">👔 Laundary Services!!</span>
-            </h2>
-
-            <p><span style="font-family: 'Poppins', sans-serif;font-size: 1.3vw;
-
-    color: #555;
-
-    line-height: 1.6;">Professional laundry services tailored for your busy lifestyle. 
-                <br>Enjoy spotless cleaning, expert fabric care, and convenient
-                <br> doorstep pickup and delivery—all at affordable prices.</span>
-            </p>
-            <button id="btn">Book a service today!</button>
+    <div class="container">
+        <div class="box" id="Left" ><img width="350vh" src="images/image.png" alt=""></div>
+        <div class="box" id="Right" >
+            <form id="form" action="">
+                <h1 id="logintitle">Welcome Back <br>to Laundry Mart</h1>
+                <p id="loginp">Your trusted partner for professional <br> laundry and dry-cleaning services.</p>
+                <label for="email">Email</label>
+                <input placeholder="Email@123" type="email"/>
+                <br>
+                <label for="password" >Password</label>
+                <input placeholder="Password" type="password">
+                <br>
+                <a href="">Forget password</a>
+                <br>
+                <button>Login</button>
+            </form>
         </div>
-        <div id="heroright">
-            <img style="border-radius: 40px;" src="images/image.png" width="260"; alt="laundaryservicephoto">
-        </div>
-    </section>
+    </div>
 </body>
 </html>
