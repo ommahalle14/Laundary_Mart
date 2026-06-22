@@ -58,7 +58,21 @@ ul{
 #heroright{
     margin-top: 50px;
     margin-left: 30px;
-   
+}
+#img{
+    animation: firstanimation 3s linear  infinite ;
+}
+@keyframes firstanimation {
+    0%{
+        transform: rotateY(-20deg);
+    }25%{
+        transform:rotateY(20deg);
+    }50%{
+        transform: rotateX(20deg);
+    }100%{
+        transform: rotateY(-20deg);
+    }
+    
 }
 #btn{
     padding: 20px;
