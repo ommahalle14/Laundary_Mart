@@ -1,65 +1,89 @@
-ul{
-    list-style: none;
-    text-align: center;
-    block-size: 40px;
-}
-li{
-    display: inline-block;
-    margin-top: 5vh;
-    margin-right :5vw; 
-    margin-bottom: 0vh;
-    font-size: 1.5vw;
-}
-/* *{
-    background-color: rgb(230, 243, 255);
-} */
-.info{
-    color: #0095ff;
-    text-decoration: none;
+/* Laptop view */
+#leftright{
+    display: flex;
+    align-items: center;
 }
 #left{
-    width: 15vw;
-    position: absolute;
-    top: 2vh;
-    left: 1vw;
-    bottom: 0vw;
-}
-li>a:hover{
-    color: red;
+    width: 200px;
 }
 #right{
-    position: absolute;
-    top: 1vh;
-    right: 1vw;
-    padding: 2.5vh;
-    /* border: solid; */
-    color:#3bbed8 ;
-    background-color:#dcf9ffdf;
-    border-radius: 2vb;
-    letter-spacing: 0.05vw;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color:#3bbed8;
+    background-color: #e5f9fd;
 }
+nav{
+    flex:1;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+    list-style: none;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif; ;
+}
+.info:hover{
+    color: red;
+    transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scaleY(1);
+}
+.info{
+    padding: 20px;
+    font-size: small;
+    background-color:  #e5f9fd;
+    border-radius: 25px;
+    text-decoration: none;
+    color:#05b5d8;
+    transition-duration: 0.5s;
+}
+
+#Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #heroleft{
-    position: absolute;
-    top: 25vh;
-    left: 20vw;
+    font-size: 20px;
+
+}
+#heroleft h2{
+     color: #00b4d8
 }
 #heroright{
-    position: absolute;
-    right: 22vw;
-    top: 26vh;
+    margin-top: 50px;
+    margin-left: 30px;
+   
 }
 #btn{
-    padding: 2.5vh 10vw;
-    background-color: #0095ff;
-    border: none;
-    border-radius: 5vw;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 600;
-    letter-spacing: 0.05vw;
+    padding: 20px;
+    width: 500px;
+    border-radius: 35px;
+    font-size:medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#4798f4;
     color: white;
+    transition-duration: 0.5s;
+    border: none;
 }
-/* Laptop view */
+#btn:hover{
+    transform: rotate(-4deg);
+}
+
+
+
+
+
+
+
+
+
+
 @media (min-width : 992px) and (max-width : 1199px) { /* tablet view*/
     ul{
     list-style: none;
